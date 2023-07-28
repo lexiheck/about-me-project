@@ -86,3 +86,16 @@ p {
 .email-link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    img {
+        display: none;
+    }
+    h1, h2, h3 {
+        margin: 0 auto;
+    }
+    .media-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
